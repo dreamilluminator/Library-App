@@ -1,5 +1,5 @@
 const express = require('express');
-const app = new express();
+const app =  express();
 const nav = [
     {
         link:'/books',name:'Books'
