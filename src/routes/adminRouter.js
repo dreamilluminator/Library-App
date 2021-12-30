@@ -1,6 +1,6 @@
 const express = require('express');
 const adminRouter = express.Router();
-const Bookdata = require('../model/Bookdata');
+const Bookdata = require('../models/Bookdata');
 
 function router(nav){
     adminRouter.get('/',function(req,res){
